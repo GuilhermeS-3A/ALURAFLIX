@@ -1,27 +1,28 @@
 /* Reset básico */
 * {
-    margin: 10;
-    padding: 10;
+    margin: 0; /* Corrigido para 0 */
+    padding: 0; /* Corrigido para 0 */
     box-sizing: border-box;
 }
 
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #141414;
+    background-color: #000; /* Fundo preto */
     color: #fff;
     text-align: center;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #000;
+    background-color: #000; /* Fundo do cabeçalho preto */
     padding: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2rem;
+    color: #FFA500; /* Amarelo alaranjado */
 }
 
 /* Estilo principal */
@@ -52,5 +53,5 @@ iframe {
 p {
     margin-top: 10px;
     font-size: 1rem;
-    color: #ccc;
+    color: #ccc; /* Cor do texto dos vídeos */
 }
